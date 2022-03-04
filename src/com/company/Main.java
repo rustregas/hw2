@@ -67,5 +67,42 @@ public class Main {
         System.out.println("Маша теперь получает " + salaryMashaNew + " рублей. Годовой доход вырос на " + 12*deltaSalaryMasha + " рублей");
         System.out.println("Денис теперь получает " + salaryDenisNew + " рублей. Годовой доход вырос на " + 12*deltaSalaryDenis + " рублей");
         System.out.println("Кристина теперь получает " + salaryKristiNew + " рублей. Годовой доход вырос на " + 12*deltaSalaryKristi + " рублей");
+
+
+        //6
+
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+
+        int result = a*(b+(c-d*e));
+
+        int invertResult = (-1)*result;
+
+        System.out.println("result: "+result);
+        System.out.println("invertResult: "+invertResult);
+
+
+        //7
+        int aa = 5;
+        int bb = 7;
+
+        aa = aa*bb;
+
+        bb = aa/bb;
+
+        aa = aa/bb;
+
+        System.out.println("aa = "+aa);
+        System.out.println("bb = "+bb);
+
+        //8
+
+        int aaa =123;
+        int bbb = (aaa%100 - (aaa%100)%10)/10;
+        System.out.println("bbb = "+bbb);
+
     }
 }
